@@ -22,7 +22,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    background-color: #ddd;
 }
 
 .main {
@@ -32,7 +32,11 @@ body {
 }
 
 .content{
-    width: 80%;
+    margin: 5px 15%;
+    border: solid 2px black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
 }
 
 .header, .footer {
@@ -79,7 +83,6 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
 }
 
 .footer a {
@@ -102,6 +105,7 @@ p, td, th, li, dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
+    padding: 5px;
 }
 
 h1, h2, h3, h4, h5, h6 {
