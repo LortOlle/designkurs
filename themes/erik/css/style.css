@@ -32,7 +32,9 @@ body {
 }
 
 .content{
-    margin: 5px 15%;
+    margin: 5px auto;
+    width: 90%;
+    max-width: 1000px;
     border: solid 2px black;
     border-radius: 10px;
     background-color: white;
@@ -49,7 +51,6 @@ body {
 .header, .site-header {
     display: flex;
     justify-content: space-between;
-
 }
 
 /* Title */
