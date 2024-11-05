@@ -4,6 +4,7 @@
 @import 'blockquotes';
 @import 'code';
 
+// Body
 body {
     background-color: $background-color;
 }
@@ -15,7 +16,7 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    background-color: #ddd;
+    background-color: $background-color;
 }
 
 .main {
@@ -30,6 +31,30 @@ body {
     max-width: 1000px;
     border: solid 2px black;
     border-radius: 10px;
-    background-color: white;
+    background-color: $background-alternative-color;
     padding: 15px;
-  }
+}
+
+// Marginals
+@mixin marginals{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+// Header
+
+.header, .site-header{
+    @include marginals;
+}
+
+// Footer
+
+.footer{
+    @include marginals;
+}
+
+.footer .social {
+    font-size: 2rem;
+}
