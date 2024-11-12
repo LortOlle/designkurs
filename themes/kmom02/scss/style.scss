@@ -40,7 +40,7 @@ body {
     width: 90%;
     max-width: 1000px;
     border: solid 2px black;
-    border-radius: 10px;
+    border-radius: $radius;
     background-color: $background-alternative-color;
     padding: 15px;
 }
