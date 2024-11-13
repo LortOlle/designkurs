@@ -410,10 +410,21 @@ body {
 * {
   color: #000;
   font-family: kanit;
+  line-height: 1.4;
 }
 
 a {
   text-decoration: none;
+}
+
+p {
+  font-size: 1.25em;
+  margin-bottom: 1.75rem;
+}
+
+h1 {
+  font-size: 2.4em;
+  margin-bottom: 3.5rem;
 }
 
 body {
@@ -435,7 +446,7 @@ body {
   border: solid 2px black;
   border-radius: 10px;
   background-color: white;
-  padding: 15px;
+  padding: 30px;
 }
 
 .header {
