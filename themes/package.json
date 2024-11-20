@@ -8,8 +8,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass kmom02/scss/style.scss kmom02/css/style.css --no-source-map",
-    "style-min": "sass kmom02/scss/style.scss kmom02/css/style.min.css --no-source-map --style compressed"
+    "style": "sass erik/scss/style.scss erik/css/style.css --no-source-map",
+    "style-min": "sass erik/scss/style.scss erik/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +20,5 @@
     "stylelint": "^16.10.0",
     "stylelint-config-sass-guidelines": "^12.1.0"
   },
-  "dependencies": {},
   "description": ""
 }
