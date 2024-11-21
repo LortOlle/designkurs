@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -5,7 +6,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -403,7 +403,7 @@ pre code {
     cursor: pointer;
   }
 }
-.tech-content {
+.tech-grid-content {
   justify-content: center;
   display: grid;
   grid-template-columns: 30% 30% 30%;
@@ -411,9 +411,35 @@ pre code {
   margin-bottom: 100px;
 }
 
-.tech-content h1 {
-  grid-column: span 3;
+.title {
+  grid-column: 1/-1;
   justify-self: center;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.sidebar a {
+  font-size: 2em;
+  border-bottom: 2px solid transparent;
+  border-radius: 5px;
+  transition: border-color ease-in 0.2s;
+  padding: 5px 10px;
+  width: fit-content;
+}
+.sidebar a:hover {
+  color: #777;
+  border-color: #777;
+}
+
+.tech-content {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 20% 70%;
+  grid-gap: 25px;
+  margin-bottom: 100px;
 }
 
 .box {
@@ -424,6 +450,11 @@ pre code {
   text-align: center;
   height: 4em;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.box:hover {
+  box-shadow: rgba(0, 50, 0, 0.7) 0px 4px 8px, rgba(0, 50, 0, 0.4) 0px 13px 20px -3px, rgba(0, 50, 0, 0.2) 0px -3px 0px inset;
+  background-color: rgba(0, 50, 0, 0.03);
 }
 
 .box a {
@@ -442,10 +473,10 @@ pre code {
 }
 
 @media (max-width: 767px) {
-  .tech-content {
+  .tech-grid-content {
     grid-template-columns: 1fr;
   }
-  .tech-content .wide, .tech-content .wider, .tech-content h1 {
+  .tech-grid-content .wide, .tech-grid-content .wider, .tech-grid-content h1 {
     grid-column: span 1;
   }
 }

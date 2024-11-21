@@ -1,3 +1,8 @@
+---
+Title: CSS
+Description: Detta är en sida om css
+Template: technology
+---
 # CSS
 
 Cascading Style Sheets är språk för att beskriva utseende av element i ett markup language till exempel HTML. CSS är en av tre teknologier som utgör fundamentet för webben.
