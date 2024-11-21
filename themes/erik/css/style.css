@@ -424,7 +424,6 @@ pre code {
 .sidebar a {
   font-size: 2em;
   border-bottom: 2px solid transparent;
-  border-radius: 5px;
   transition: border-color ease-in 0.2s;
   padding: 5px 10px;
   width: fit-content;
@@ -478,6 +477,12 @@ pre code {
   }
   .tech-grid-content .wide, .tech-grid-content .wider, .tech-grid-content h1 {
     grid-column: span 1;
+  }
+  .tech-content {
+    grid-template-columns: 1fr;
+  }
+  .tech-content .sidebar {
+    display: none;
   }
 }
 body {
