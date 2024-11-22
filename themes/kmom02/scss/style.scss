@@ -28,6 +28,7 @@ p {
     font-size: 1.25em;
     margin-bottom: 1.75rem;
 }
+
 h1 {
     font-size: 2.4em;
     margin-bottom: 3.5rem;
@@ -45,18 +46,18 @@ body {
     justify-content: center;
 }
 
-.content{
+.content {
     margin: 5px auto;
     width: 90%;
     max-width: 1000px;
-    border: solid 2px black;
+    border: solid 2px #000;
     border-radius: $radius;
     background-color: $background-alternative-color;
     padding: 30px;
 }
 
 // Marginals
-@mixin marginals{
+@mixin marginals {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -65,13 +66,13 @@ body {
 
 // Header
 
-.header{
+.header {
     @include marginals;
 }
 
 // Footer
 
-.footer{
+.footer {
     @include marginals;
 }
 

@@ -367,7 +367,8 @@ pre code {
   padding: 0 1em;
 }
 
-.nav a, .nav-toggle {
+.nav a,
+.nav-toggle {
   color: #333;
 }
 
@@ -475,7 +476,9 @@ pre code {
   .tech-grid-content {
     grid-template-columns: 1fr;
   }
-  .tech-grid-content .wide, .tech-grid-content .wider, .tech-grid-content h1 {
+  .tech-grid-content .wide,
+  .tech-grid-content .wider,
+  .tech-grid-content h1 {
     grid-column: span 1;
   }
   .tech-content {
@@ -525,9 +528,9 @@ body {
   margin: 5px auto;
   width: 90%;
   max-width: 1000px;
-  border: solid 2px black;
+  border: solid 2px #000;
   border-radius: 10px;
-  background-color: white;
+  background-color: #fff;
   padding: 30px;
 }
 
