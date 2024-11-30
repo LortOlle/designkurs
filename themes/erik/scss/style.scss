@@ -12,12 +12,12 @@
 
 // Body
 body {
-    background-color: variables.$background-color;
+    background-image: linear-gradient(to bottom right, variables.$background-color, variables.$background-color-fade);
 }
 
 * {
     color: variables.$font-color;
-    font-family: kanit;
+    font-family: variables.$font-family;
     line-height: 1.4;
 }
 
@@ -28,11 +28,14 @@ a {
 p {
     font-size: 1.25em;
     margin-bottom: 1.75rem;
+    img{
+        border-radius: variables.$radius;
+    }
 }
 
 h1 {
     font-size: 2.4em;
-    margin-bottom: 3.5rem;
+    margin-bottom: 0.5rem;
 }
 
 body {
@@ -51,7 +54,7 @@ body {
     margin: 5px auto;
     width: 90%;
     max-width: 1000px;
-    border: solid 2px #000;
+    border: solid 2px variables.$border-color;
     border-radius: variables.$radius;
     background-color: variables.$background-alternative-color;
     padding: 30px;

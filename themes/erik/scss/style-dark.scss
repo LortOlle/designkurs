@@ -1,22 +1,23 @@
 
 // Imports
 @use '../../node_modules/normalize.css/normalize';
-@use 'variables';
+@use 'variables-dark';
 @use 'blockquotes';
 @use 'code';
 @use 'mobile-menu';
+@use 'technologies-dark';
 
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 // Body
 body {
-    background-color: variables.$background-color;
+    background-color: variables-dark.$background-color;
 }
 
 * {
-    color: variables.$font-color;
-    font-family: kanit;
+    color: variables-dark.$font-color;
+    font-family: variables-dark.$font-family;
     line-height: 1.4;
 }
 
@@ -24,9 +25,16 @@ a {
     text-decoration: none;
 }
 
+.nav li a{
+    color: variables-dark.$accent-color;
+}
+
 p {
     font-size: 1.25em;
     margin-bottom: 1.75rem;
+    img{
+        border-radius: variables-dark.$radius;
+    }
 }
 
 h1 {
@@ -37,7 +45,7 @@ h1 {
 body {
     display: flex;
     flex-direction: column;
-    background-color: variables.$background-color;
+    background-color: variables-dark.$background-color;
 }
 
 .main {
@@ -50,9 +58,9 @@ body {
     margin: 5px auto;
     width: 90%;
     max-width: 1000px;
-    border: solid 2px #000;
-    border-radius: variables.$radius;
-    background-color: variables.$background-alternative-color;
+    border: solid 2px variables-dark.$border-color;
+    border-radius: variables-dark.$radius;
+    background-color: variables-dark.$background-alternative-color;
     padding: 30px;
 }
 

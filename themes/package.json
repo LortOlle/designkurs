@@ -8,8 +8,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass erik/scss/style.scss erik/css/style.css --no-source-map",
-    "style-min": "sass erik/scss/style.scss erik/css/style.min.css --no-source-map --style compressed"
+    "style": "npm run style-light && npm run style-dark",
+    "style-dark": "sass erik/scss/style-dark.scss erik/css/style-dark.css --no-source-map",
+    "style-light": "sass erik/scss/style.scss erik/css/style.css --no-source-map"
   },
   "keywords": [],
   "author": "",
