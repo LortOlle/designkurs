@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://db.onlinewebfonts.com/c/9177027d537011f596f6e7ec988e1441?family=Futura+LT+W04+Bold");
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -430,8 +431,8 @@ pre code {
   width: fit-content;
 }
 .sidebar a:hover {
-  color: #C28874;
-  border-color: #C28874;
+  color: #c28874;
+  border-color: #c28874;
 }
 
 .tech-content {
@@ -445,7 +446,7 @@ pre code {
 .box {
   text-align: center;
   border-radius: 5px;
-  background-color: #E5B7A1;
+  background-color: #e5b7a1;
   width: 100%;
   height: 100%;
   font-size: 1.3em;
@@ -463,7 +464,7 @@ pre code {
 
 .box:hover {
   box-shadow: rgba(0, 50, 0, 0.7) 0px 4px 8px, rgba(0, 50, 0, 0.4) 0px 13px 20px -3px, rgba(0, 50, 0, 0.2) 0px -3px 0px inset;
-  background-color: #B4C8A6;
+  background-color: #b4c8a6;
 }
 
 .wide {
@@ -490,12 +491,53 @@ pre code {
     display: none;
   }
 }
+.color {
+  border-spacing: 4px;
+  border-collapse: separate;
+}
+
+.color td {
+  height: 50px;
+  width: 50px;
+}
+
+span {
+  border-radius: 3px;
+  padding: 3px;
+  margin: 3px;
+}
+
+.gillette {
+  font-family: "Futura LT W04 Bold";
+  color: #fefefe;
+  background-color: #000;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.gillette-accent {
+  color: #88FD42;
+  font-family: inherit;
+}
+
+.gillettevenus {
+  font-family: "Gilroy-SemiBold", Verdana, sans-serif;
+  color: #0057B7;
+  background-color: #fff;
+}
+
+.colorwheel {
+  margin: 5px;
+}
+
 body {
-  background-image: linear-gradient(to bottom right, #86AF81, #B4C8A6);
+  background-image: linear-gradient(to bottom right, #86af81, #b4c8a6);
 }
 
 * {
-  color: #6E2600;
+  color: #6e2600;
   font-family: "Kanit", serif;
   line-height: 1.4;
 }
@@ -520,7 +562,7 @@ h1 {
 body {
   display: flex;
   flex-direction: column;
-  background-color: #86AF81;
+  background-color: #86af81;
 }
 
 .main {
@@ -535,7 +577,7 @@ body {
   max-width: 1000px;
   border: solid 2px #000;
   border-radius: 10px;
-  background-color: #F2DDCB;
+  background-color: #f2ddcb;
   padding: 30px;
 }
 

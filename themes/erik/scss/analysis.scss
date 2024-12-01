@@ -1,0 +1,40 @@
+.color {
+    border-spacing: 4px;
+    border-collapse: separate;
+}
+
+.color td {
+    height: 50px;
+    width: 50px;
+}
+
+span {
+    border-radius: 3px;
+    padding: 3px;
+    margin: 3px;
+}
+
+.gillette {
+    font-family: "Futura LT W04 Bold";
+    color: #fefefe;
+    background-color: #000;
+}
+
+.link {
+    text-decoration: underline; 
+}
+
+.gillette-accent {
+    color: #88FD42;
+    font-family: inherit;
+}
+
+.gillettevenus {
+    font-family: "Gilroy-SemiBold", Verdana, sans-serif;
+    color: #0057B7;
+    background-color: #fff;
+}
+
+.colorwheel {
+    margin: 5px;
+}

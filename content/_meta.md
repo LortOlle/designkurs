@@ -12,9 +12,9 @@ Social:
       url: https://www.student.bth.se/~eros24/dbwebb-kurser/webtec/me/report/public/me.php
       icon: fa-brands fa-html5
     - title: Dark Mode
-      url: https://www.student.bth.se/~eros24/dbwebb-kurser/design/me/portfolio/index.php?action=theme
+      url: ?action=theme
       icon: fa-regular fa-moon
     - title: Destroy Session
-      url: https://www.student.bth.se/~eros24/dbwebb-kurser/design/me/portfolio/index.php?action=session_destroy
+      url: ?action=session_destroy
       icon: fa-regular fa-trash-can
 ---

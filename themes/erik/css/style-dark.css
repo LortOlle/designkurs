@@ -430,8 +430,8 @@ pre code {
   width: fit-content;
 }
 .sidebar a:hover {
-  color: #F5AD29;
-  border-color: #F5AD29;
+  color: #f5ad29;
+  border-color: #f5ad29;
 }
 
 .tech-content {
@@ -490,13 +490,54 @@ pre code {
     display: none;
   }
 }
+.color {
+  border-spacing: 4px;
+  border-collapse: separate;
+}
+
+.color td {
+  height: 50px;
+  width: 50px;
+}
+
+span {
+  border-radius: 3px;
+  padding: 3px;
+  margin: 3px;
+}
+
+.gillette {
+  font-family: "Futura LT W04 Bold";
+  color: #fefefe;
+  background-color: #000;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.gillette-accent {
+  color: #88FD42;
+  font-family: inherit;
+}
+
+.gillettevenus {
+  font-family: "Gilroy-SemiBold", Verdana, sans-serif;
+  color: #0057B7;
+  background-color: #fff;
+}
+
+.colorwheel {
+  margin: 5px;
+}
+
 body {
   background-color: #181818;
 }
 
 * {
-  color: #CE9178;
-  font-family: "Kanit", serif;
+  color: #ce9178;
+  font-family: "Consolas", serif;
   line-height: 1.4;
 }
 
@@ -505,7 +546,7 @@ a {
 }
 
 .nav li a {
-  color: #7CDCF0;
+  color: #7cdcf0;
 }
 
 p {
@@ -537,9 +578,9 @@ body {
   margin: 5px auto;
   width: 90%;
   max-width: 1000px;
-  border: solid 2px #6E7681;
+  border: solid 2px #6e7681;
   border-radius: 10px;
-  background-color: #1F1F1F;
+  background-color: #1f1f1f;
   padding: 30px;
 }
 
