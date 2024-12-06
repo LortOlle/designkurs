@@ -1,4 +1,7 @@
-img, embed, object, video {
+img,
+embed,
+object,
+video {
     max-width: 100%;
 }
 
@@ -7,6 +10,7 @@ picture,
     padding: 20px 0;
     text-align: center;
 }
+
 .gallery-content {
     justify-content: center;
     display: grid;
