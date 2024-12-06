@@ -172,3 +172,7 @@ Template: gallery
         </picture>
     </a>
 </div>
+
+<div class="embed-container">
+    <iframe class="video" src="https://www.youtube.com/embed/X-iSQQgOd1A?si=kXkCOryfRS7DSYKk" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+</div>
