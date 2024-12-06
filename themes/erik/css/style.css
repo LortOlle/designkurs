@@ -532,6 +532,42 @@ span {
   margin: 5px;
 }
 
+img, embed, object, video {
+  max-width: 100%;
+}
+
+picture,
+.img-container {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.gallery-content {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 22%);
+  grid-gap: 25px;
+  margin-bottom: 100px;
+}
+
+.gallery-content p {
+  text-align: center;
+}
+
+.cat-img {
+  border-radius: 10px;
+}
+
+@media (max-width: 992px) {
+  .gallery-content {
+    grid-template-columns: repeat(2, 45%);
+  }
+}
+@media (max-width: 600px) {
+  .gallery-content {
+    grid-template-columns: 1fr;
+  }
+}
 body {
   background-image: linear-gradient(to bottom right, #86af81, #b4c8a6);
 }
