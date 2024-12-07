@@ -2,7 +2,7 @@ Färger
 =======================
 
 Färg och font är viktiga för att skapa rätt känsla på en hemsida. Du kan använda det för att leda användarens uppmärksamhet genom att
-markera vissa delar eller välja om du vill att din hemsida ska ge en kännsla av lugn eller upphetsning. 
+markera vissa delar eller välja om du vill att din hemsida ska ge en känsla av lugn eller upphetsning. 
 Jag ska analysera tre hemsidors färgval och typografi. 
 
 Urval
@@ -29,7 +29,7 @@ Den första analysen var av Gillette.se. Det första som slår en är en mörk b
 <td style= "background-color: #88fd42">
 </tr>
 </table>
-Både bilderna på produkter och typsnitt är avskalat och stilrent. Överlag på sidananvänds typsnittet Futura LT W04 Bold. I de inledande rubrikerna använder de vit eller ljusgrå text med den limegröna färgen när de vill att något ord ska markeras extra tydligt:
+Både bilderna på produkter och typsnitt är avskalat och stilrent. Överlag på sidan används typsnittet Futura LT W04 Bold. I de inledande rubrikerna använder de vit eller ljusgrå text med den limegröna färgen när de vill att något ord ska markeras extra tydligt:
 <span class="gillette">GILLETTE MED TYDLIG <span class="gillette-accent">MARKÖR</span></span>
 De använder också endast versaler i sina h1 rubriker.
 
@@ -93,11 +93,11 @@ När man kommer in på Brawl Stars sida slås man av en bild i klara färger med
 
 Jag gjorde ett axplock från färgerna i bilderna på hemsidan och kom fram till detta färghjul:
 
-![me](%assets_url%/img/brawl_colors1.png "Brawlstars färger"){.colorwheel}
+![Brawlstars färger](%assets_url%/img/brawl_colors1.png "Brawlstars färger"){.colorwheel}
 
 Jämför man detta med de officiella färgerna från företagets riktlinjer så stämmer det ganska bra:
 
-![me](%assets_url%/img/brawl_colors2.png "Brawlstars officiella färger"){.colorwheel}
+![Brawlstars Officiella färger](%assets_url%/img/brawl_colors2.png "Brawlstars officiella färger"){.colorwheel}
 
 Brawlstars har en egen font som kallas supercell headline och supercell text. Dessa finns inte gratis utan licens så jag kan inte visa exempel här. Det går dock att se på deras sida.
 
@@ -105,11 +105,11 @@ Brawlstars har en egen font som kallas supercell headline och supercell text. De
 Analys
 -----------------------
 
-Det var facinerande att studera likheterna mellan gillettes båda sidor. Skillnaderna var uppenbara och det kändes som två helt olika sidor, men när man studerade upplägget och det faktiska innehållet mer nogrant så inser man att de är väldigt lika till innehål även om känslan är så olik. De små skillnaderna i, framför allt, färgval och font-vikt gjorde stor skillnad.
+Det var fascinerande att studera likheterna mellan gillettes båda sidor. Skillnaderna var uppenbara och det kändes som två helt olika sidor, men när man studerade upplägget och det faktiska innehållet mer noggrant så inser man att de är väldigt lika till innehåll även om känslan är så olik. De små skillnaderna i, framför allt, färgval och font-vikt gjorde stor skillnad.
 
-Det var också intressant att studera Gillettes "manliga" sida som hade en gråskala med en grön accentfärg till att börja med och sedan gick över när de skulle visa upp sina olika varumärkesserier till att ha en tydlig triad. Den gröna, oranga och de två blå. Helt skiljda färger men fungerar ändå tillsamans.
+Det var också intressant att studera Gillettes "manliga" sida som hade en gråskala med en grön accentfärg till att börja med och sedan gick över när de skulle visa upp sina olika varumärkesserier till att ha en tydlig triad. Den gröna, orangea och de två blå. Helt sköljda färger men fungerar ändå tillsammans.
 
-Venus sida däremot hade ett analogt färgtema med närliggande blå och turkosa färger. Det gav sidan ett helt annat lugn. Facinerande att det ska skilja så mycket när de säljer samma produkter, bara olika målgrupper.
+Venus sida däremot hade ett analogt färgtema med närliggande blå och turkosa färger. Det gav sidan ett helt annat lugn. Fascinerande att det ska skilja så mycket när de säljer samma produkter, bara olika målgrupper.
 
 Brawl Stars var intressant eftersom de var så mycket färg jämfört med de andra två men också eftersom jag kunde läsa deras egna riktlinjer där de förklarar varför de gjort de val som de gjort. 
 
@@ -124,7 +124,7 @@ Referenser
 
 [Brawl Stars](https://supercell.com/en/games/brawlstars/){.link}
 
-[Brawl Stars Officiella riktlinjer](https://supercell.com/assets/supercell-brand-guidelines-v1.pdf){.link}
+[Brawl Stars officiella riktlinjer](https://supercell.com/assets/supercell-brand-guidelines-v1.pdf){.link}
 
 [The psychology of fonts](https://www.kolenda.io/guides/fonts){.link}
 

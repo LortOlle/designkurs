@@ -517,21 +517,33 @@ span {
 }
 
 .gillette-accent {
-  color: #88FD42;
+  color: #88fd42;
   font-family: inherit;
 }
 
 .gillettevenus {
   font-family: "Gilroy-SemiBold", Verdana, sans-serif;
-  color: #0057B7;
+  color: #0057b7;
   background-color: #fff;
+}
+
+.spreadsheet-container {
+  width: 100%;
+}
+
+.spreadsheet {
+  width: 100%;
+  height: 600px;
 }
 
 .colorwheel {
   margin: 5px;
 }
 
-img, embed, object, video {
+img,
+embed,
+object,
+video {
   max-width: 100%;
 }
 
