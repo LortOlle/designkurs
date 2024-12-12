@@ -61,6 +61,7 @@ picture,
     .gallery-content {
         grid-template-columns: 1fr;
     }
+    
     .img-container:nth-child(n) {
         grid-column: span 1;
         grid-row: span 1;

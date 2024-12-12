@@ -30,6 +30,7 @@ function main()
     var menu = document.getElementById('nav'),
         menuToggle = document.getElementById('nav-toggle'),
         navIcon = document.getElementById('toggler')
+        menuToggle.tabIndex = "0"
         toggleMenuEvent = function (event) {
             if (event.type === 'keydown') {
                 if ((event.keyCode != 13) && (event.keyCode != 32)) {
