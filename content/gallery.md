@@ -6,8 +6,8 @@ Template: gallery
 <div class="img-container">
     <a href="%assets_url%/img/cat1.jpg">
         <picture>
-            <source media="(min-width: 992px)" srcset="image/cat1.jpg?width=300">
-            <source media="(min-width: 600px)" srcset="image/cat1.jpg?width=350">
+            <source media="(min-width: 992px)" srcset="image/cat1.jpg?width=600">
+            <source media="(min-width: 600px)" srcset="image/cat1.jpg?width=900">
             <img src="image/cat1.jpg?width=540" class="cat-img" alt="Picture of a cat">
         </picture>
     </a>
@@ -36,8 +36,8 @@ Template: gallery
 <div class="img-container">
     <a href="%assets_url%/img/cat4.jpg">
         <picture>
-            <source media="(min-width: 992px)" srcset="image/cat4.jpg?width=300">
-            <source media="(min-width: 600px)" srcset="image/cat4.jpg?width=350">
+            <source media="(min-width: 992px)" srcset="image/cat4.jpg?width=600">
+            <source media="(min-width: 600px)" srcset="image/cat4.jpg?width=900">
             <img src="image/cat4.jpg?width=540" class="cat-img" alt="En bild på en katt">
         </picture>
     </a>
@@ -66,8 +66,8 @@ Template: gallery
 <div class="img-container">
     <a href="%assets_url%/img/cat7.jpg">
         <picture>
-            <source media="(min-width: 992px)" srcset="image/cat7.jpg?width=300">
-            <source media="(min-width: 600px)" srcset="image/cat7.jpg?width=350">
+            <source media="(min-width: 992px)" srcset="image/cat7.jpg?width=600">
+            <source media="(min-width: 600px)" srcset="image/cat7.jpg?width=900">
             <img src="image/cat7.jpg?width=540" class="cat-img" alt="En bild på en katt">
         </picture>
     </a>
@@ -96,8 +96,8 @@ Template: gallery
 <div class="img-container">
     <a href="%assets_url%/img/cat10.png">
         <picture>
-            <source media="(min-width: 992px)" srcset="image/cat10.png?width=300&save-as=jpg">
-            <source media="(min-width: 600px)" srcset="image/cat10.png?width=350&save-as=jpg">
+            <source media="(min-width: 992px)" srcset="image/cat10.png?width=600&save-as=jpg">
+            <source media="(min-width: 600px)" srcset="image/cat10.png?width=900&save-as=jpg">
             <img src="image/cat10.png?width=540&save-as=jpg" class="cat-img" alt="En bild på en katt">
         </picture>
     </a>
@@ -126,8 +126,8 @@ Template: gallery
 <div class="img-container">
     <a href="%assets_url%/img/cat13.jpg">
         <picture>
-            <source media="(min-width: 992px)" srcset="image/cat13.jpg?width=300">
-            <source media="(min-width: 600px)" srcset="image/cat13.jpg?width=350">
+            <source media="(min-width: 992px)" srcset="image/cat13.jpg?width=600">
+            <source media="(min-width: 600px)" srcset="image/cat13.jpg?width=900">
             <img src="image/cat13.jpg?width=540" class="cat-img" alt="En bild på en katt">
         </picture>
     </a>
@@ -156,8 +156,8 @@ Template: gallery
 <div class="img-container">
     <a href="%assets_url%/img/cat16.png">
         <picture>
-            <source media="(min-width: 992px)" srcset="image/cat16.png?width=300&save-as=jpg">
-            <source media="(min-width: 600px)" srcset="image/cat16.png?width=350&save-as=jpg">
+            <source media="(min-width: 992px)" srcset="image/cat16.png?width=600&save-as=jpg">
+            <source media="(min-width: 600px)" srcset="image/cat16.png?width=900&save-as=jpg">
             <img src="image/cat16.png?width=540&save-as=jpg" class="cat-img" alt="En bild på en katt">
         </picture>
     </a>

@@ -19,6 +19,11 @@ picture,
     margin-bottom: 100px;
 }
 
+.img-container:nth-child(3n+2) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
 .gallery-content p {
     text-align: center;
 }
@@ -55,5 +60,9 @@ picture,
 @media (max-width: 600px) {
     .gallery-content {
         grid-template-columns: 1fr;
+    }
+    .img-container:nth-child(n) {
+        grid-column: span 1;
+        grid-row: span 1;
     }
 }
