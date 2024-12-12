@@ -8,7 +8,7 @@ Home page
 
 Denna sidan innehåller en presentation av mig själv.
 
-![me](%assets_url%/img/me.jpg "En bild på mig"){.me-img}
+![me](image/me.jpg?width=60% "En bild på mig"){.me-img}
 
 Jag heter Erik Olsson. Född och uppväxt i Umeå i slutet av 80-talet. Jag har bott på några olika platser både i Umeå och på andra platser i landet. Bland annat Kramfors och Halmstad.
 
