@@ -34,9 +34,12 @@ p {
 
     img {
         border-radius: variables.$radius;
-        float: left;
         margin-right: 20px;
     }
+}
+
+.me-img {   
+    float: left;
 }
 
 h1 {
